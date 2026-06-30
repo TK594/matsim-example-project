@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicleDefinitions xmlns="http://www.matsim.org/files/dtd"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/vehicleDefinitions_v1.0.xsd">
+    <vehicleType id="artic_44t_hgv">
+        <description>UK 6-axle articulated HGV, 44t GVW, ~26t payload</description>
+        <capacity seats="1" standingRoomInVehicle="0"/>
+        <length meter="16.5"/>
+        <width meter="2.55"/>
+        <maximumVelocity meterPerSecond="22.22"/>
+        <networkMode networkMode="car"/>
+    </vehicleType>
+    <vehicle id="truck_1" type="artic_44t_hgv"/>
+</vehicleDefinitions>
